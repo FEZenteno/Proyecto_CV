@@ -64,4 +64,19 @@
   *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
   }
+  body {
+    background: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
