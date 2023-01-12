@@ -86,12 +86,12 @@
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 50px black;
   } 
-  .container .left-Side {
+  .container .ladoIzquierdo {
     position: relative;
     background: darkblue;
     padding: 40px;
   }
-  .container .right-Side {
+  .container .ladoDerecho {
     position: relative;
     background: lightblue;
     padding: 40px;
