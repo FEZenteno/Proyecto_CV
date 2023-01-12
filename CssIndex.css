@@ -61,21 +61,21 @@
       text-align: left;
     }
   }*/
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
   *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
   }
-  body {
-    background: lightcoral;
+body {
+    background: rgb(219, 245, 195);
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
   }
-  .container {
+.container {
     position: relative;
     width: 100%;
     max-width: 1000px;
@@ -86,13 +86,45 @@
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 50px black;
   } 
-  .container .ladoIzquierdo {
+.container .ladoIzquierdo {
     position: relative;
-    background: darkblue;
+    background: #74F0DE;
     padding: 40px;
   }
-  .container .ladoDerecho {
+  .TextoPerfil{
     position: relative;
-    background: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #048BA8;
+  }
+.TextoPerfil .FotoPerfil{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /*overflow:hidden;*/
+    }
+.TextoPerfil .FotoPerfil img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+.TextoPerfil .FotoPerfil h2 {
+    color: aliceblue;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: end;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.container .ladoDerecho {
+    position: relative;
+    background: #F18F01;
     padding: 40px;
   }
