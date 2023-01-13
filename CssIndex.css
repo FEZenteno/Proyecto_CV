@@ -98,30 +98,35 @@ body {
     align-items: center;
     padding-bottom: 20px;
     border-bottom: 1px solid #048BA8;
+    overflow: hidden ;
   }
 .TextoPerfil .FotoPerfil{
     position: relative;
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    /*overflow:hidden;*/
+    overflow:hidden;         /*Revisar funcion para usarla*/
     }
 .TextoPerfil .FotoPerfil img{
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
     }
-.TextoPerfil .FotoPerfil h2 {
+.TextoPerfil h2 {
     color: aliceblue;
     font-size: 1.5em;
     margin-top: 20px;
     text-transform: uppercase;
-    text-align: end;
+    text-align: center;
     font-weight: 600;
     line-height: 1.4em;
+}
+.TextoPerfil h2 span{
+  font-size: 0.8em;
+  font-weight: 300;
 }
 .container .ladoDerecho {
     position: relative;
