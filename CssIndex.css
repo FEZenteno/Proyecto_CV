@@ -69,7 +69,7 @@
     font-family: 'Poppins', sans-serif;
   }
 body {
-    background: rgb(219, 245, 195);
+    background: #eef4ed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,6 +153,12 @@ body {
   width: 30px;
   font-size: 18px;
   color: #03a9f4;
+}
+.InfoContacto ul li .texto{
+  color: #fff;
+  font-weight: 100;
+  justify-content: center;
+  margin: 0%;
 }
 .container .ladoDerecho {
     position: relative;
