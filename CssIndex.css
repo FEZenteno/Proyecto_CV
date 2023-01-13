@@ -157,8 +157,7 @@ body {
 .InfoContacto ul li .texto{
   color: #fff;
   font-weight: 100;
-  justify-content: center;
-  margin: 0%;
+  font-size: 16px;
 }
 .container .ladoDerecho {
     position: relative;
