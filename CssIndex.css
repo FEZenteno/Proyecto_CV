@@ -85,10 +85,11 @@ body {
     display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 50px black;
+    padding: 0%;
   } 
 .container .ladoIzquierdo {
     position: relative;
-    background: #74F0DE;
+    background: #134074;
     padding: 40px;
   }
   .TextoPerfil{
@@ -128,8 +129,33 @@ body {
   font-size: 0.8em;
   font-weight: 300;
 }
+.InfoContacto{
+  padding-top: 40px;
+}
+.Titulo{
+  color:antiquewhite;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.InfoContacto ul{
+  position: relative;
+}
+.InfoContacto ul li {
+  list-style: none;
+  position: relative;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.InfoContacto ul li .Icono{
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: #03a9f4;
+}
 .container .ladoDerecho {
     position: relative;
-    background: #F18F01;
+    background: #8da9c4;
     padding: 40px;
   }
