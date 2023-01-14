@@ -159,6 +159,12 @@ body {
   font-weight: 100;
   font-size: 16px;
 }
+.InfoContacto ul li a{
+  color:#fff;
+  font-weight: 100;
+  font-size: 16px;
+  text-decoration: none;
+}
 .container .ladoDerecho {
     position: relative;
     background: #8da9c4;
