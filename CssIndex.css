@@ -62,19 +62,19 @@
     }
   }*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
-  *{
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-  }
+}
 body {
     background: #eef4ed;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-  }
+}
 .container {
     position: relative;
     width: 100%;
@@ -86,13 +86,13 @@ body {
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 50px black;
     padding: 0%;
-  } 
+} 
 .container .ladoIzquierdo {
     position: relative;
     background: #134074;
     padding: 40px;
-  }
-  .TextoPerfil{
+}
+.TextoPerfil{
     position: relative;
     display: flex;
     flex-direction: column;
@@ -100,14 +100,14 @@ body {
     padding-bottom: 20px;
     border-bottom: 1px solid #048BA8;
     overflow: hidden ;
-  }
+}
 .TextoPerfil .FotoPerfil{
     position: relative;
     width: 200px;
     height: 200px;
     border-radius: 50%;
     overflow:hidden;         /*Revisar funcion para usarla*/
-    }
+}
 .TextoPerfil .FotoPerfil img{
     position: absolute;
     top: 0;
@@ -115,7 +115,7 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    }
+}
 .TextoPerfil h2 {
     color: aliceblue;
     font-size: 1.5em;
@@ -165,8 +165,26 @@ body {
   font-size: 16px;
   text-decoration: none;
 }
+.InfoEdu ul li{
+  margin-bottom: 15px;
+  list-style-type: none;
+}
+.InfoEdu ul li h5{
+  color: #03a9f4;
+  font-weight: 500;
+}
+.InfoEdu h4{
+  color:#fff;
+  font-weight: 300;
+  font-size: 16px;
+}
+.InfoEdu h4:nth-child(2){
+  color:#fff;
+  font-weight: 800;
+  font-size: 16px;
+}
 .container .ladoDerecho {
     position: relative;
     background: #8da9c4;
     padding: 40px;
-  }
+}
