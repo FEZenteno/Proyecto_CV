@@ -16,7 +16,7 @@
   }
   
   .topnav a:not(:first-child){
-    float:left;
+    float: left;
   }
   
   .topnav a:first-child{
@@ -189,4 +189,9 @@ body {
     position: relative;
     background: #8da9c4;
     padding: 40px;
+}
+.ladoDerecho span{
+  color:#fff;
+  font-weight: 300;
+  font-size: 16px;
 }
