@@ -1,6 +1,6 @@
  
 .topnav {
-    background-color: #333;
+    background-color: #134074;
     overflow: hidden;
   }
   
@@ -12,10 +12,11 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-weight: 600;
   }
   
   .topnav a:not(:first-child){
-    float:right;
+    float:left;
   }
   
   .topnav a:first-child{
@@ -30,7 +31,7 @@
   
   /* Add an active class to highlight the current page */
   .active {
-    background-color: #4CAF50;
+    background-color: #048BA8;
     color: white;
   }
   
@@ -60,7 +61,7 @@
       display: block;
       text-align: left;
     }
-  }*/
+  }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
 *{
     padding: 0;
@@ -171,7 +172,8 @@ body {
 }
 .InfoEdu ul li h5{
   color: #03a9f4;
-  font-weight: 500;
+  font-weight: 800;
+  font-size: 13px;
 }
 .InfoEdu h4{
   color:#fff;
