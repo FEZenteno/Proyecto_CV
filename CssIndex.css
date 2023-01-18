@@ -2,7 +2,6 @@
 .topnav {
     background-color: #134074;
     overflow: hidden;
-  
     grid-template-columns: 1fr auto;
     align-items: center;
     position: fixed;
@@ -87,7 +86,7 @@ body {
     max-width: 1000px;
     min-height: 1000px;
     background: white;
-    margin: 50px;
+    margin: 0;
     display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 50px black;
@@ -199,4 +198,5 @@ body {
   color:#fff;
   font-weight: 300;
   font-size: 16px;
+  margin: 20px;
 }
