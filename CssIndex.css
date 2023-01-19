@@ -208,3 +208,13 @@ body {
   color:#fff;
   font-weight: 300;
 }
+.Titulo2{
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+p{
+  color: #fff;
+}
