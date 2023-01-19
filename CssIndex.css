@@ -202,11 +202,9 @@ body {
 .container .ladoDerecho {
     position: relative;
     background: #8da9c4;
-    padding: 40px;
+    padding: 60px 40px;
 }
-.ladoDerecho span{
+.ladoDerecho {
   color:#fff;
   font-weight: 300;
-  font-size: 16px;
-  margin: 20px;
 }
